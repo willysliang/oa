@@ -1,0 +1,23 @@
+# .stylelintignore
+# 旧的不需打包的样式库
+*.min.css
+ 
+# 其他类型文件
+*.js
+*.jpg
+*.png
+*.eot
+*.ttf
+*.woff
+*.json
+ 
+# 测试和打包目录
+/test/
+/dist/
+/node_modules/
+/lib/
+src/unpackage
+# 忽略uni-app官方的组件库错误和警告，官方的竟然通不过...
+src/uni_modules/uni-**
+src/uniCloud-aliyun
+node_modules
