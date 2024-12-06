@@ -2,7 +2,6 @@
   "title": "willysliang",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "engines": {
     "node": ">=16.14"
   },
