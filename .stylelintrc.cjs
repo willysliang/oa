@@ -59,6 +59,7 @@ module.exports = {
     'declaration-empty-line-before': 'never',
     'block-no-empty': true,
     'no-invalid-double-slash-comments': true,
+    'at-rule-no-unknown': null,
   },
   overrides: [
     {
